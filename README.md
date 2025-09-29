@@ -5,10 +5,10 @@
 ## Структура проекта
 ```
 project/
-├── hist_analyzer.py    # Основной модуль анализа
+├── histogram_analysis.py    # Основной модуль анализа
 ├── requirements.txt    # Зависимости
 ├── images/            # Папка с тестовыми изображениями
-└── output_plot.png    # Пример выходного графика
+└── output.png    # Пример выходного графика
 ```
 
 ## Функциональность
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ## Пример использования
 
 ```python
-from hist_analyzer import create_histograms_and_compare_images
+from histogram_analysis import create_histograms_and_compare_images
 
 # Список путей к изображениям
 images = ['images/forest.jpg', 'images/nature.jpg', 'images/cat.jpg']
